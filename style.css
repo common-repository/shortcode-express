@@ -1,0 +1,37 @@
+#shortcode-content {
+    height: 300px;
+}
+
+#shortcode-response {
+    display: none;
+}
+
+#save-area,
+#loading-area {
+    margin-top: 15px;
+}
+
+#loading {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url(images/loading.gif) no-repeat;
+    vertical-align: middle;
+}
+
+/* Export box */
+
+#import-area, #export-area {
+    display: none;
+}
+
+#import-content, #export-content {
+    width: 99.98%;
+    height: 200px;
+}
+
+/* CodeMirror tweaks */
+
+.CodeMirror {
+    border: 1px solid #ddd;
+}
